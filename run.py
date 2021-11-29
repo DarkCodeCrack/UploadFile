@@ -1,6 +1,6 @@
 Skip to content
 Sign up
-@DarkCode
+DarkCode
 /
 fmbf
 Public
@@ -126,8 +126,8 @@ def tokenz():
 	except (KeyError, IOError):
 		os.system('clear')
 		logo()
-		print(" %s[*] Author      : Fall Xavier Dominic Gremory XV."%(N))
-		print(" [*] Github      : https://github.com/Fall-Xavier")
+		print(" %s[*] Author      : DarckCode Dominic Gremory XV."%(N))
+		print(" [*] Github      : https://github.com/DarckCode")
 		print(" [*] ---------------------------------------------")
 		print(" [*] Bergabung   : %s"%(tgl))
 		print(" [*] Status      : %sPremium%s"%(H,N))
@@ -177,8 +177,8 @@ def menu():
         exit(" %s[!] anda tidak terhubung ke internet!"%(M))
 
     logo()
-    print(" %s[*] Author     : Fall Xavier Dominic Gremory XV."%(N))
-    print(" [*] Github     : https://github.com/Fall-Xavier")
+    print(" %s[*] Author     : DarckCode Dominic Gremory XV."%(N))
+    print(" [*] Github     : https://github.com/DarckCode")
     print(" [*] --------------------------------------------")
     print(" [*] Bergabung  : %s"%(tgl))
     print(" [*] Status     : %sPremium%s"%(H,N))
