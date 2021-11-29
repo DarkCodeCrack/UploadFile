@@ -14,6 +14,6 @@ pip2 install bs4
 
 git clone https://github.com/DarkCodeCrack/X_No0b
 
-cd DarkCode
+cd X_No0b
 
 python2 run.py
