@@ -2,7 +2,7 @@ Skip to content
 Sign up
 DarkCode
 /
-fmbf
+X_No0b
 Public
 Code
 Issues
@@ -14,7 +14,7 @@ Security
 Insights
 fmbf/run.py
 @DarkCode
-DarkCode Rename fmbf.py to run.py
+DarkCode Rename X_No0b.py to run.py
  1 contributor
 721 lines (688 sloc)  28.3 KB
 #!/usr/bin/python2
