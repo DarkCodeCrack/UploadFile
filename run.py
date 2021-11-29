@@ -1,23 +1,43 @@
-Skip to content 
-Sign up
-X_No0b
-/
-X_No0b
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-fmbf/run.py
-@DarkCode
-DarkCode Rename X_No0b.py to run.py
- 1 contributor
-721 lines (688 sloc)  28.3 KB
+
 #!/usr/bin/python2
+# coding=utf-8
+# author : DarkCode
+
+### IMPORT MODULE ###
+import os, sys, re, time, requests, calendar, random,json
+from concurrent.futures import ThreadPoolExecutor
+from bs4 import BeautifulSoup as parser
+from datetime import datetime
+from datetime import date
+s=requests.Session()
+try:
+	import requests
+except ImportError:
+	print("\n [!] module requests belum terinstall")
+	os.system("pip install requests")
+
+try:
+	import bs4
+except ImportError:
+	print("\n [!] module bs4 belum terinstall")
+	os.system("pip install bs4")
+
+try:
+	import concurrent.futures
+except ImportError:
+	print("\n [!] module futures belum terinstall")
+	os.system("pip install futures")
+
+
+### GLOBAL WARNA ###
+P = '\x1b[1;97m' # PUTIH               
+M = '\x1b[1;91m' # MERAH            
+H = '\x1b[1;92m' # HIJAU.              
+K = '\x1b[1;93m' # KUNING.           
+B = '\x1b[1;94m' # BIRU.                 
+U = '\x1b[1;95m' # UNGU.               
+O = '\x1b[1;96m' # BIRU MUDA. 
+O = '\x1b[1;96m' # ORANGE   #!/usr/bin/python2
 # coding=utf-8
 # author : DarkCode
 
