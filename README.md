@@ -12,7 +12,7 @@ pip2 install mechanize
 
 pip2 install bs4
 
-git clone https://github.com/DarkCodeCrack
+git clone https://github.com/DarkCodeCrack/X_No0b
 
 cd DarkCode
 
